@@ -1,0 +1,57 @@
+body{
+    background-color: #ffeedb;
+  
+}
+.logo img {
+    margin-top: -10%;
+    margin-bottom: -15%;
+}
+.headline{
+font-size: 60px;
+color: rgb(25, 86, 77);
+margin-top: 3%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+}
+  .typewriter p {
+  font-family: Courier New, monospace;
+  font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    display: flex;
+justify-content: center;
+align-items: center;
+    animation: typing 6s steps(40, end), blink-caret .75s step-end infinite;
+    
+  }
+  .text{
+    font-weight: 500;
+  }
+  
+  
+  /* Typing effect */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+ .butt{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 54, 96);
+    color: white;
+    /* font-size: 20px; */
+ }
+  
+ .butt:hover{
+    color: white;
+    background-color: rgb(238, 12, 95);
+ }
+ .butt1{
+    margin-left: 69%;
+ }

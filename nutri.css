@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffeedb;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    right: 64%;    
+    top: -70px;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    /* border: red 2px solid; */
+    left: 30%;
+    background-image: url(logoimg.png);
+    background-size: 100% 100%;
+    
+
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #666;
+    position: relative;
+    top: 70%;
+}
+
+.get-started {
+    padding: 10px 20px;
+    background-color: #ff4335;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    position: relative;
+    top: 70%;
+}
+
+.get-started:hover {
+    background-color: #287c6b;
+    color: white;
+}
+
+.auth-buttons a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0 5px;
+    position: relative;
+    left: 59%;    
+    bottom: 570px;
+    color: black;
+
+
+}
+
+.auth-buttons a:hover {
+    background-color: #020202;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}

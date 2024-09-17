@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="about2.css">
+</head>
+<body>
+
+        <!--create page-->
+        <div class="div">
+            <img class="mw-100 img1" alt="Image with max-width 100%" src="logo 2.png" alt="Nutrisync Logo">
+            <h1 class="text-danger fw-bold login">Create Account</h1>
+            <h5 class="fw-bold name">Email:</h5>
+            <input type="text" class="user" id="Input" placeholder="Enter Email">
+            <h5 class="fw-bold name">Username:</h5>
+            <input type="text" class="user" id="Inpu" placeholder="Enter Username">
+            <h5 class="fw-bold name ">Password:</h5>
+            <input type="password" class="user" id="In" placeholder="Enter Password">
+            
+        <!--switch to next step-->    
+            <a class="btn btn-danger b1" href="about.html" role="button">Create</a>
+        </div>
+      
+    
+    </body>
+
+    <script>
+        function create() {
+            var Input = document.getElementById("Input").value.trim();
+            if(Input==""){
+                alert("Enter information!!")
+            }else{
+        alert("Submited");
+            }
+    }
+    </script>
+    </html>
+
+</body>
+</html>

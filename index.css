@@ -1,0 +1,56 @@
+.f1 h1{
+    font-family:'Brush Script MT';
+    font-size: 80px;
+    text-decoration: underline;
+}
+.f1 h2{
+ font-family:  sans-serif;
+}
+
+.f2{
+    font-size: 70px;
+}
+/* .imglogo{
+    position: relative;
+    bottom: 10%;
+} */
+.lines{
+  font-family: Courier New, monospace;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 600;
+}
+.keyterms{
+    font-family: sans-serif;
+    font-style: oblique; 
+    font-weight:800;
+    margin-left: 7%;
+     margin-top:2%;
+     margin-bottom: 2%;
+     font-size: 50px;
+     color: rgb(255, 0, 119);
+}
+.lists{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 6%;
+    font-style: oblique;
+}
+
+.options{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.butt{
+    height: 60px;
+    width: 190px;
+    position: relative;
+    left: 43%;
+    margin-bottom:2% ;
+    font-size: 25px;
+}

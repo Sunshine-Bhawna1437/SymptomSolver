@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SymptomSolver</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="nutri.css">
+
+    <style>
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .get-started {
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .auth-buttons .btn {
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container text-center">
+    <!-- Logo -->
+    <div class="logo mb-3">
+        <img src="logo 2.png" alt="Namah Logo">
+        
+    </div>
+
+    <div class="image">
+         <!-- Tagline -->
+    <p class="tagline">Catch Your Symptom, Solve Your Health Problem</p>
+
+    <!-- Get Started Button -->
+    <a href="index.html" class="btn get-started">Get Started</a>
+
+    </div>
+   
+    <!-- Login/Signup Buttons -->
+    <div class="auth-buttons mt-3">
+        <a href="about.html" class="btn btn-outline-secondary" role="button" onclick="create3">Login</a>
+        <a href="register.html" class="btn btn-outline-secondary"role="button" onclick="create3">Register</a>
+    </div>
+</div>
+
+</body>
+<script>
+    function create3() {
+        var Input = document.getElementById("Input").value.trim();
+        if(Input==""){
+            alert("Enter information!!")
+        }else{
+    alert("Submited");
+        }
+}
+</script>
+</html>

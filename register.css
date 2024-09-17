@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffeedb;
+}
+.div{
+    height: 660px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.img1{
+    position: relative;
+    bottom: 110px;
+}
+.login{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    margin-top: -58%;
+}
+.user{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+.name{
+    margin-left: 5%;
+}
+.b1{
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 9%;
+}
+.p1{
+    font-size: 14px;
+    margin-left: 3%;
+    margin-top: 8%;
+}
